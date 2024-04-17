@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Ex 11</title>
+
+    <style>
+
+      div {
+        display: grid;
+      }
+
+      .a{
+        grid-template-columns: 200px 75px;
+      }
+
+      .b{
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 10px;
+      }
+
+      .c{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <div class="a">
+    
+      <div style="background-color: lightblue;">
+        200px
+      </div>
+
+      <div style="background-color:lightpink;">
+        75px
+      </div>
+
+    </div>
+
+    <div class="b">
+
+      <div style="background-color: lightblue;">
+        col1
+      </div>
+
+      <div style="background-color:lightpink;">
+        col2
+      </div>
+
+      <div style="background-color: lightblue;">
+        col3
+      </div>
+
+    </div>
+
+    <div class="c">
+
+      <div style="background-color: lightblue;">
+        col1
+      </div>
+
+      <div style="background-color:lightblue;">
+        col2
+      </div>
+
+      <div style="background-color: lightblue;">
+        col3
+      </div>
+
+      <div style="background-color: lightblue;">
+        col4
+      </div>
+
+      <div style="background-color: lightblue;">
+        col1
+      </div>
+
+      <div style="background-color:lightblue;">
+        col2
+      </div>
+
+      <div style="background-color: lightblue;">
+        col3
+      </div>
+
+      <div style="background-color: lightblue;">
+        col4
+      </div>
+
+    </div>
+
+  </body>
+</html>

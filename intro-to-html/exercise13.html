@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ex 13</title>
+  <style>
+    .a-container {
+      display:flex;
+      margin-bottom: 100px;
+      height:50px;
+    }
+
+    .a-left {
+      background-color: lightpink;
+      color:white;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      width:100px;
+    }
+
+    .a-text {
+      background-color: black;
+    }
+
+
+    .a-right {
+      background-color: lightblue;
+      width: 200px;
+    }
+
+    .b-container {
+      display:flex;
+      height:50px;
+    }
+
+    .b-left {
+      width: 100px;
+      background-color: lightpink;
+    }
+
+
+    .b-right {
+      background-color: lightblue;
+      width:200px;
+    }
+
+    .b-row2 {
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .b-text {
+      background-color: black;
+      color:white;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="a-container">
+    <div class="a-left">
+      <div class="a-text">
+        item1
+      </div>
+    </div>
+
+    <div class="a-right">
+    </div>
+  </div>
+
+  <div class="b-container">
+    <div class="b-left">
+    </div>
+
+    <div class="b-right">
+      <div class="b-row1">
+        row1
+      </div>
+      <div= class="b-row2">
+        <div class="b-text">row2</div>
+        <div class="b-text">row2</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

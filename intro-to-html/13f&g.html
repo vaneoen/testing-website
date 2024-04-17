@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<title>Ex 13 F&G</title>
+<head>
+  <style>
+
+    body{
+      font-family: arial;
+    }
+
+    .container {
+      display:flex;
+      width:420px;
+      margin-top: 10px;
+      margin-left:20px;
+    }
+
+    .pp {
+       height:60px;
+       width: 60px;
+       object-fit: cover;
+       border-radius: 30px;
+    }
+
+    .right {
+      padding-left:10px;
+    }
+
+    .username-tag {
+      display: flex;
+      padding-bottom:5px;
+    }
+
+    .username {
+      font-weight:bold;
+      padding-right: 5px;
+    }
+
+    .tag{
+      color:rgb(111,111,111);
+    }
+
+    .tweet-content {
+      margin-bottom: 15px;
+      line-height:20px;
+    }
+
+    .preview-container{
+      display:flex;
+      align-items: center;
+      width:350px;
+      border-radius:15px;
+      border-width:1px;
+      border-color: rgb(200,200,200);
+      border-style: solid;
+      overflow:hidden;
+    }
+
+    .preview-left{
+      width:100px;
+      height: 100px;
+    }
+
+    .preview-img{
+      width:100px;
+      height:100px;
+      object-fit:cover;
+      object-position: middle;
+    }
+
+    .preview-right {
+      flex:1;
+      line-height:22px;
+      padding-left:10px;
+    }
+
+    .preview-row-top {
+      color: rgb(111,111,111);
+    }
+
+  </style>
+</head>
+<body>
+<div class="container">
+
+<div class="left">
+  <img class="pp" src="channel-pictures/channel-1.jpeg">
+</div>
+
+<div class="right">
+
+  <div class="username-tag">
+    <div class="username">
+      supersimple.dev
+    </div>
+
+    <div class="tag">
+      @SuperSimpleDev
+    </div>
+  </div>
+
+  <div class="tweet-content">
+    What is backend web development? A complete overview. New video is up!
+  </div>
+
+  <div class="preview-container">
+    <div class="preview-left">
+      <img class="preview-img" 
+      src="thumbnails/thumbnail-1.webp">
+    </div>
+
+    <div class="preview-right">
+      <div class="preview-row-top">
+        youtube.com
+      </div>
+
+      <div class="preview-row-bottom">
+        Backend web development - a complete overview (2021)
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</body>
+
+</html>

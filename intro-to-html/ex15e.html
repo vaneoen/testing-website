@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ex15e</title>
+    <style>
+body{
+  height:3000px;
+  font-family: arial;
+}
+
+.img{
+  position:relative;
+  display:inline-block;
+}
+
+.clothes{
+  height:300px;
+  width:300px;
+  object-fit: cover;
+}
+
+.discount{
+  position: absolute;
+  background-color: black;
+  color:white;
+  font-size:13px;
+  padding:5px 10px;
+  top:10px;
+  right:0;
+}
+
+.add-to-cart{
+  background-color: rgba(255,255,255,0.8);
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  height:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button{
+  background-color: white;
+  border-width:1px;
+  padding:8px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+    </style>
+  </head>
+  <body>
+      <div class="img">
+
+        <img class="clothes" 
+        src="Clothing-clothes-clipart.jpg">
+
+        <div class="discount">
+          20% OFF
+        </div>
+
+        <div class="add-to-cart">
+          <button class="add-button">
+             Add to Cart
+          </button>
+        </div>
+
+      </div>
+      
+  </body>
+  </html>

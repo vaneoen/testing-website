@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12f</title>
+    <style>
+
+      body {
+        font-family: arial;
+        font-size: 15px;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .container {
+        background-color: rgb(120, 82, 178);
+        display: flex;
+        color:white;
+        align-items: center;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:15px;
+        padding-right:5px;
+        width:800px;
+      }
+
+      .left{
+        width: 150px;
+        cursor: pointer;
+      }
+
+      .mid {
+        flex:1;
+      }
+
+      input {
+        padding: 8px 18px;
+        border-radius: 20px;
+        border: none;
+        width:450px;
+      }
+
+      .right {
+        padding-right: 0;
+      }
+
+      button{
+        padding: 8px 16px;
+        border-width: 1px;
+        color:white;
+        background-color: rgb(120, 82, 178);
+        border-color: white;
+        border-style:solid;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: opacity 0.1s;
+      }
+
+      button:active {
+        opacity: 0.8;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="left">
+        <a target="_blank" href="https://www.google.com">
+        Home
+        </a>
+      </div>
+
+      <div class="mid">
+        <input type="text" placeholder="Search">
+      </div>
+
+      <div class="right">
+        <button>
+          Download
+        </button>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ex 14d</title>
+  <style>
+
+    body {
+      height:3000px;
+    }
+
+  .overlay {
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+  }
+
+  .modal-container {
+    background-color: white;
+    width: 300px;
+    padding: 20px 15px;
+    border-radius: 5px;
+  }
+
+  .modal-title, .modal-content {
+    margin-bottom: 15px;
+  }
+
+  .modal-title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+
+  </style>
+</head>
+<body>
+
+  <div style="
+  background-color: green;
+  color:white;
+  position: fixed;
+  width: 100px;
+  right:0;
+  top:0;
+  bottom:0;
+  ">
+  right sidebar
+</div>
+
+  <div class="overlay">
+
+    <div class="modal-container">
+
+      <div class="modal-title">
+        Modal Title
+      </div>
+    
+      <div class="modal-content">
+        This is a modal
+      </div>
+
+      <button>
+        Close
+      </button>
+      
+    </div>
+
+  </div>
+
+</body>
+</html>
